@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Solicitação de Exclusão de Dados – Implicit Girls</title>
+  <style>
+    body { background: #111; color: #eee; font-family: Arial, sans-serif; padding: 2rem; line-height: 1.6; }
+    h1, h2 { color: #ff268a; }
+    input, textarea, button {
+      display: block; width: 100%; margin-top: 1rem; padding: 0.7rem; border: none; border-radius: 5px;
+    }
+    button { background: #ff268a; color: white; font-weight: bold; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h1>Solicitação de Exclusão de Dados</h1>
+  <p>Você pode solicitar a exclusão total dos seus dados armazenados por nosso sistema, conforme previsto na LGPD (Lei Geral de Proteção de Dados).</p>
+  <p>Preencha o formulário abaixo e responderemos em até 5 dias úteis:</p>
+
+  <form method="POST" action="mailto:implicitgirls@gmail.com" enctype="text/plain">
+    <label>Nome completo:</label>
+    <input type="text" name="Nome" required>
+
+    <label>E-mail ou telefone utilizado:</label>
+    <input type="email" name="Email" required>
+
+    <label>Mensagem (opcional):</label>
+    <textarea name="Mensagem" rows="5" placeholder="Ex: Solicito a exclusão dos meus dados da plataforma Implicit Girls."></textarea>
+
+    <button type="submit">Solicitar Exclusão</button>
+  </form>
+
+  <p>Ou, se preferir, envie diretamente sua solicitação para: <strong>implicitgirls@gmail.com</strong></p>
+</body>
+</html>
